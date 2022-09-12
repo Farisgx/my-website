@@ -45,8 +45,8 @@ const Getintouch = () => {
                     <h3 style={{marginRight:'24%',marginTop:'-24%' ,color:'white'}}>contact us.</h3>
                     <div className='app_navbar-bottom2' style={{width:'10%',marginLeft: '25%' , marginTop:'1%' , fontFamily:'proxima-nova'}}></div>
                     <ul className='get-links' style={{marginRight: '24%' , marginTop:'2.8%' , fontSize:'medium' , color:'white',listStyle:'none'}}>
-                    <li className='p__opensans2' style={{marginTop:'8%'}}> +24990900909 <AiOutlineMobile size="1.5rem" style={{marginTop: '-.5%'}} /> </li>
-                    <li className='p__opensans2' style={{marginTop:'3%'}}>  thisisemail@gmail.com <FaMailBulk size="1.2rem"   style={{marginTop: '-.5%'}}/></li>
+                    <li className='p__opensans2' style={{marginTop:'8%'}}> +249901944704 <AiOutlineMobile size="1.5rem" style={{marginTop: '-.5%'}} /> </li>
+                    <li className='p__opensans2' style={{marginTop:'3%'}}>  farispoetry@gmail.com <FaMailBulk size="1.2rem"   style={{marginTop: '-.5%'}}/></li>
                     <li className='p__opensans2' style={{marginTop:'3%'}}>  FaceBook messenger <FaFacebookMessenger size="1.2rem" style={{marginTop: '.5%'}}/></li>
                     
                     </ul>
@@ -55,7 +55,7 @@ const Getintouch = () => {
 
             <div className='startproject' style={{marginTop:'-12%',marginLeft:'35%',color:'white'}}>
                 <h2>Looking to start a project?</h2>
-                <h6>Our expert team are on hand to help you</h6>
+                <h6>Our team of experts is ready at hand to help you</h6>
                 <h6>achieve your goals through the power of</h6>
                 <h6>video. Fill out our quick and simple form to</h6>
                 <h6>get started...</h6>
