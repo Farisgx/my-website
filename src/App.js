@@ -22,7 +22,7 @@ function App() {
       <video src={vediovg} autoPlay loop muted></video>
       
       <div className='solgun' >
-        <h1>Welcome Walaa, and Congratulations!!</h1>
+    
         <h1>See life through </h1>
         <h1>a professional lens.</h1>
         <h2>a</h2>
