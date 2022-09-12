@@ -1,0 +1,142 @@
+.app_navbar{
+    position: absolute;
+    width: 100%;
+    top:0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.01);
+    padding: 1rem 0rem;
+    border-bottom: 1rem;
+    border-color: rgb(0, 0, 0); 
+}
+.app_navbar-bottom{
+    position: absolute;
+    /* top: -350px;  */
+    top:90%;
+    /* bottom: 0px; */
+    height: 430%;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(16, 2, 32, 0) 0%,rgb(16, 2, 32)  1.5%);
+    padding: 1rem;
+
+}
+
+
+
+.app_navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none ;
+}
+
+.app_navbar-links li{
+    margin: 0 1rem;
+    cursor: pointer;
+    font-size: 69%;
+    font-family: 'proxima-nova', sans-serif;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 600;
+}
+
+.app_navbar_smallscreen-links li{
+    margin: 0 1rem;
+    cursor: pointer;
+    font-size: smaller;
+    font-family: 'proxima-nova', sans-serif;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 600;
+}
+
+
+.app_navbar-links li:hover{
+    color: gray;
+}
+
+.p__opensans {
+    /* font-family: var(--font-alt); */
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    line-height: 24px;
+    font-size: 16px;
+   
+  }
+
+
+
+.app_navbar-links2{
+    display: flex;
+    justify-content: flex-end; 
+    list-style: none ;
+}
+
+.app_navbar-links2 li{
+    margin: 0 .5rem;
+    cursor: pointer;
+    font-size: smaller;
+    font-family: 'proxima-nova', sans-serif;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.app_navbar-links2 div{
+    width: 1px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.app_navbar-bottom2{
+    display: flex;
+    position: absolute;
+    margin-top: 7%;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.app_navbar-bottom3{
+    position: absolute;
+    /* top: 3000px; */
+    /* bottom: 440.3%; */
+    height:90% ;
+    top: 430%;
+    /* bottom: 100%; */
+    width: 100%;
+    
+    /* height: 500px; */
+    background-color: rgba(255, 255, 255, 0.1);
+
+
+}
+
+
+video {
+    position: static;
+    width: 100% ;
+    height: 100%;
+    object-fit: contain;
+}
+
+.app_navbar-logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none ;
+}
+
+.app_navbar-logo img {
+    width: 150px;
+}
+
+.app_navbar-logo div {
+    width: 15px;
+}
